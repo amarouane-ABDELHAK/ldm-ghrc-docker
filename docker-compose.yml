@@ -8,7 +8,7 @@ services:
   ldm:
     image: amarouane/ldm-ghrc-docker
     container_name: ldm
-    # restart: always
+    restart: always
     volumes:
       # change defaults to your liking
       - ./etc/:/home/ldm/etc/
