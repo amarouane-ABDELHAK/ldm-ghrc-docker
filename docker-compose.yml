@@ -6,7 +6,7 @@ services:
   # LDM
   ###
   ldm:
-    image: amarouane/ldm-ghrc-docker
+    build: .
     container_name: ldm
     restart: always
     volumes:
