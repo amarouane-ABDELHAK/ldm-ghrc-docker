@@ -1,2 +1,4 @@
 queues/*.pq
 logs
+.vscode
+.idea
